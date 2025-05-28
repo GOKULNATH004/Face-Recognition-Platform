@@ -55,5 +55,9 @@ This project is a browser-based face recognition and AI chatbot system built for
 
 ---
 
+## Demo Video
+
+- Drive Link [https://drive.google.com/file/d/1N-ZMpooLNAxvcr2It9nVBN6Fsx7hkrk-/view?usp=sharing]
+
 ## Acknowledgement
 This project is a part of a hackathon run by Katomaran [https://katomaran.com]
