@@ -1,0 +1,45 @@
+# Node modules (React frontend)
+client/node_modules/
+
+# Build files
+client/build/
+client/.next/
+client/.cache/
+
+# Python virtual environment
+ai/venv/
+venv/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite DB file (optional)
+ai/db/registrations.db
+
+# Logs
+*.log
+*.sqlite3
+logs/
+*.db-journal
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+
+# Registered face images (optional for public)
+registered_faces/
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+temp_query.jpg
