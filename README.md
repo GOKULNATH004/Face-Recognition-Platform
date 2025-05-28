@@ -25,20 +25,35 @@ This project is a browser-based face recognition and AI chatbot system built for
 
 ---
 
-## Folder Structure
+## Core Modules
 
-📁 d2/
-├── ai/               
-│   ├── api_server.py
-│   └── db/
-├── client/           
-│   └── src/components
-│       ├── RegistrationTab.jsx
-│       ├── LiveRecognitionTab.jsx
-│       ├── ChatTab.jsx
-├── registered_faces/ 
+# Registration Panel
+
+- Capture facial data via webcam
+- Save face image, name, ID, and timestamp
+- Automatically store all entries in an SQLite database
+
+# Live Recognition
+- Detect and recognize users in real time using webcam stream
+- Match faces against stored dataset using DeepFace
+- Display matched name, ID, and timestamp overlayed on video
+
+# AI Chat Assistant
+
+- Query data like:
+"Who registered last?"
+"What is Gokulnath’s ID?"
+"When did Harini register?"
 
 ---
 
-##Acknowledgement
+## Data Storage
+
+- Uses SQLite database: registrations.db
+- Stores: name, ID, timestamp, and image path
+- Automatically created and updated by backend
+
+---
+
+## Acknowledgement
 This project is a part of a hackathon run by Katomaran [https://katomaran.com]
